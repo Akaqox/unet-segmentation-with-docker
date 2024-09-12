@@ -29,6 +29,7 @@ Will be added later
 
 ```
 git clone https://github.com/Akaqox/unet-segmentation-with-docker.git
+cd unet-segmentation-with-docker
 docker build -t seg:latest .
 docker run -v /opt/data/seg:/app/results --gpus all -it --ipc=host  seg
 
