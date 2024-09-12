@@ -1,0 +1,14 @@
+# Ignore all dataset files related to training, validation, and testing
+dataset/**/train*
+dataset/**/valid*
+dataset/**/test*
+dataset/original/
+results
+
+
+
+# Optionally ignore other common files
+*.pyc
+*.pyo
+__pycache__
+*.git
